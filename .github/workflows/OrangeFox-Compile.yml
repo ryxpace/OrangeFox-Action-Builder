@@ -12,7 +12,7 @@ on:
       MANIFEST_BRANCH:
         description: 'OrangeFox Manifest Branch'
         required: true
-        default: '12.1'
+        default: '11.0'
         type: choice
         options:
         - 12.1
@@ -24,7 +24,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'fox_12.1-4.19'
+        default: 'android12-4.19'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
