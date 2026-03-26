@@ -99,7 +99,7 @@ jobs:
 
     - name: Set Release Properties
       run: |
-        echo "BUILD_DATE=$(TZ=Asia/Manila date +%Y%m%d)" >> $GITHUB_ENV
+        echo "BUILD_DATE=$(TZ=Asia/Jayapura date +%Y%m%d)" >> $GITHUB_ENV
         cd ${GITHUB_WORKSPACE}/OrangeFox/fox_${{ inputs.MANIFEST_BRANCH }}
 
         DEVICE_TREE_URL="${{ inputs.DEVICE_TREE }}"
